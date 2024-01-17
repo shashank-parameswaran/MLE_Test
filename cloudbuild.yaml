@@ -11,4 +11,4 @@ steps:
   - |
     echo "Docker Container Built"
     ls -la
-    ls -al models/
+    ls -al model/
