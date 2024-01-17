@@ -12,9 +12,3 @@ steps:
     echo "Docker Container Built"
     ls -la
     ls -al models/
-- name: "gcr.io/cloud-builders/gke-deploy"
-  args:
-  - run
-  - --filename=k8s/
-  - --location=us-central1
-  - --cluster=project-kube
